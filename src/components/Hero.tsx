@@ -68,17 +68,21 @@ const Hero = () => {
           </div>
 
           {/* Right Profile Section */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-lg border border-gray-200">
-                <img
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Tharani Senevirathna - QA Engineer"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
+         
+
+<div className="flex justify-center lg:justify-end">
+  <div className="relative">
+    <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+    <img
+  src="/images/tharani-profile.jpg"
+  alt="Tharani Senevirathna - QA Engineer"
+  className="w-full h-full object-cover"
+/>
+
+    </div>
+  </div>
+</div>
+
         </div>
 
         {/* Scroll Indicator */}
